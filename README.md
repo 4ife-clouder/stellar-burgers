@@ -1,19 +1,36 @@
-# Проектная работа 11-го спринта
+<a id="readme-top"></a>
+# Stellar Burgers
+#
+##
+#
+<img  style="width: 100%; border-radius: 2px; display: block" src="https://files.lukumka-dev.ru/stellar-burgers.png" alt="Demo" width="300">
 
-[Макет](<https://www.figma.com/file/vIywAvqfkOIRWGOkfOnReY/React-Fullstack_-Проектные-задачи-(3-месяца)_external_link?type=design&node-id=0-1&mode=design>)
+#### Stellar-Burgers - это интерактивный веб-сайт, позволяющий пользователям собирать собственные бургеры из доступных ингредиентов. Проект включает систему авторизации с регистрацией, логином и личным кабинетом.
 
-[Чеклист](https://www.notion.so/praktikum/0527c10b723d4873aa75686bad54b32e?pvs=4)
+<p align="right">(<a href="#readme-top">наверх</a>)</p>
 
-## Этапы работы:
+## Установка и запуск
+Для установки и запуска проекта необходимо выполнить команды
 
-1. Разверните проект и ознакомьтесь с кодом. Все необходимые вам компоненты уже созданы и лежат в папке `src/components`
+```
+npm install
+npm run start
+```
 
-2. Настройте роутинг.
+или
 
-3. Напишите функционал запросов данных с сервера, используя `Redux` и глобальный `store`. Сами "ручки" уже прописаны и лежат в `utils/burger-api.ts`
+```
+yarn
+yarn start
+```
+## Сборка
 
-4. Настройте авторизацию и создайте защищённые роуты.
+```
+npm run build
+```
 
-## Важно:
+или
 
-Для корректной работы запросов к серверу необходимо добавить переменную BURGER_API_URL в окружение. Сама ссылка находится в файле `.env.example`.
+```
+yarn build
+```
